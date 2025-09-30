@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Tutorial-Mod RP",
+        "description": "By FrederoxDev",
+        "uuid": "349562f8-c292-43f4-8aef-21748d0bc5b4",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "57781611-6f62-43f5-8939-037ebccb4549",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
