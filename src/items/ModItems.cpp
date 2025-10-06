@@ -34,9 +34,9 @@ void ModItems::RegisterItems(RegisterItemsEvent& ev)
 {
 	Log::Info("Register Mod Items!");
 
-	auto& exampleItem = ev.itemRegistry.registerItemShared<Item>("tutorial_mod:example_item", ev.itemRegistry.mMaxItemID++)
+	auto& exampleItem = ev.itemRegistry.registerItemShared<Item>("tutorial_mod:example_item", ev.itemRegistry.getNextItemID())
 		->setIconInfo("diamond", 0)
 		.setMaxStackSize(16);
 
-	ev.itemRegistry.registerItemShared<ExampleItem2>("tutorial_mod:example_item_2", ev.itemRegistry.mMaxItemID++);
+	ev.itemRegistry.registerItemShared<ExampleItem2>("tutorial_mod:example_item_2", ev.itemRegistry.getNextItemID());
 }
