@@ -27,6 +27,7 @@ public:
 		const Block& block = region.getBlock(pos);
 
 		Log::Info("{} {}", pos, block.mLegacyBlock->mNameInfo.mFullName.getString());
+		return InteractionResult::Result::SUCCESS;
 	}
 };
 
